@@ -16,6 +16,7 @@
   * 段落
   * 强调
   * 列表
+  * 列表练习
 * 语法2
   * 链接
   * 图片
@@ -29,4 +30,4 @@
 <!--此处是超链接-->
 
 [HBuilder]: http://www.dcloud.io/ 
-[王顶老师]: http://edu.51cto.coms
+[王顶老师]: https://github.com/wangding
