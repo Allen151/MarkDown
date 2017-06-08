@@ -35,12 +35,12 @@
 **列表分为有序与无序**
 ### 有序列表
 随便插入数据可以重新排列  
-1.前端技术
+1.前端技术  
   1. THML/CSS
   2. JavaScript
   3. HTML5/CSS3
-  5. 123
   4. Node.JS  
+  
 2.移动开发
   1. Android
   2. IOS

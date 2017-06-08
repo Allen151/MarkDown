@@ -11,18 +11,18 @@
     2、HBuilder软件自带的浏览工具不太完美，有些功能没有。我们可以通过安装GFM Viewer插件增加功能。方法是在客户端：工具-->插件安装-->浏览eclipse插件市场，搜索GFM Viewer。然后安装。好像要翻出去。安装完成后要重启电脑。在文件处右键show in GFM Viewer打开插件。
 
 ## 章节
-* 语法1
+* [语法1]
   * 标题
   * 段落
   * 强调
   * 列表
   * 列表练习
-* 语法2
+* [语法2]
   * 链接
   * 图片
   * 引用
   * 代码块
-* 语法3
+* [语法3]
   * 表格
   * 水平分隔线
   * HTML语法
@@ -31,3 +31,6 @@
 
 [HBuilder]: http://www.dcloud.io/ 
 [王顶老师]: https://github.com/wangding
+[语法1]: demo1.md  
+[语法2]: demo2.md
+[语法3]: demo3.md
