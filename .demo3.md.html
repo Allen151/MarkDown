@@ -641,13 +641,88 @@ function setDocumentScrollTop(ypos)
 <body class="markdown-body">
 <h1> <a id="语法3内容" class="anchor" href="#%E8%AF%AD%E6%B3%953%E5%86%85%E5%AE%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>语法3内容</h1> 
 <ul> 
- <li>[语法3] 
+ <li>语法3 
   <ul> 
-   <li>表格</li> 
-   <li>水平分隔线</li> 
-   <li>HTML语法</li> 
-   <li>GFM语法</li> 
+   <li><a href=".demo3.md.html#表格-demo">表格</a></li> 
+   <li><a href=".demo3.md.html#水平分隔线-demo">水平分隔线</a></li> 
+   <li><a href=".demo3.md.html#HTML语法-demo">HTML语法</a></li> 
+   <li><a href=".demo3.md.html#GFM语法-demo">GFM语法</a></li> 
   </ul> </li> 
+</ul> 
+<h2> <a id="表格" class="anchor" href="#%E8%A1%A8%E6%A0%BC" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>表格</h2> 
+<h4> <a id="markdown不支持表格但是表格比较常用表格是内gfm提供支持的" class="anchor" href="#markdown%E4%B8%8D%E6%94%AF%E6%8C%81%E8%A1%A8%E6%A0%BC%E4%BD%86%E6%98%AF%E8%A1%A8%E6%A0%BC%E6%AF%94%E8%BE%83%E5%B8%B8%E7%94%A8%E8%A1%A8%E6%A0%BC%E6%98%AF%E5%86%85gfm%E6%8F%90%E4%BE%9B%E6%94%AF%E6%8C%81%E7%9A%84" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MarkDown不支持表格，但是表格比较常用，表格是内GFM提供支持的。</h4> 
+<h5> <a id="用号来分开单元格第二行的横线很重要听说能设置居中问题表格里面也能增加md的其他格式" class="anchor" href="#%E7%94%A8%E5%8F%B7%E6%9D%A5%E5%88%86%E5%BC%80%E5%8D%95%E5%85%83%E6%A0%BC%E7%AC%AC%E4%BA%8C%E8%A1%8C%E7%9A%84%E6%A8%AA%E7%BA%BF%E5%BE%88%E9%87%8D%E8%A6%81%E5%90%AC%E8%AF%B4%E8%83%BD%E8%AE%BE%E7%BD%AE%E5%B1%85%E4%B8%AD%E9%97%AE%E9%A2%98%E8%A1%A8%E6%A0%BC%E9%87%8C%E9%9D%A2%E4%B9%9F%E8%83%BD%E5%A2%9E%E5%8A%A0md%E7%9A%84%E5%85%B6%E4%BB%96%E6%A0%BC%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>用｜号来分开单元格，第二行的横线很重要，听说能设置居中问题。表格里面也能增加MD的其他格式。</h5> 
+<ul> 
+ <li>全表格</li> 
+</ul> 
+<table> 
+ <thead> 
+  <tr> 
+   <th>这</th> 
+   <th>表</th> 
+   <th>头</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>姓名</td> 
+   <td>年龄</td> 
+   <td>性别</td> 
+  </tr> 
+  <tr> 
+   <td>张三</td> 
+   <td>10000000</td> 
+   <td>男</td> 
+  </tr> 
+  <tr> 
+   <td>李四</td> 
+   <td>20000000</td> 
+   <td>女</td> 
+  </tr> 
+ </tbody> 
+</table> 
+<ul> 
+ <li>精简表格<br /> 这|表|头| ----|----|----<br /> 姓名|年龄|性别<br /> 张三|10000000|男<br /> 李四|20000000|女</li> 
+</ul> 
+<h2> <a id="水平分隔线" class="anchor" href="#%E6%B0%B4%E5%B9%B3%E5%88%86%E9%9A%94%E7%BA%BF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>水平分隔线</h2> 
+<div class="highlight highlight-text-html-basic">
+ <pre>&lt;<span class="pl-ent">hr</span>&gt; Horizontal Rule三个减号，三个减号前如果有文字就会变成标题2，解决的方法是空一行</pre>
+</div> 
+<hr /> 
+<div class="highlight highlight-text-html-basic">
+ <pre>&lt;<span class="pl-ent">hr</span>&gt; Horizontal Rule三个星号</pre>
+</div> 
+<hr /> 
+<div class="highlight highlight-text-html-basic">
+ <pre>&lt;<span class="pl-ent">hr</span>&gt; Horizontal Rule三个下划线</pre>
+</div> 
+<hr /> 
+<h2> <a id="html语法" class="anchor" href="#html%E8%AF%AD%E6%B3%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML语法</h2> 
+<h4> <a id="在markdown文件中可以直接识别html代码" class="anchor" href="#%E5%9C%A8markdown%E6%96%87%E4%BB%B6%E4%B8%AD%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E8%AF%86%E5%88%ABhtml%E4%BB%A3%E7%A0%81" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>在MarkDown文件中可以直接识别HTML代码。</h4> 
+<p align="center">我居中了</p> 
+<div class="highlight highlight-text-html-basic">
+ <pre><span class="pl-c"><span class="pl-c">&lt;!--</span> 注释也能用 <span class="pl-c">--&gt;</span></span>
+<span class="pl-c"><span class="pl-c">&lt;!--</span>如果MarkDown提供的文本处理格式不够，可以通过HTML代码来实现 <span class="pl-c">--&gt;</span></span></pre>
+</div> 
+<h2> <a id="gfm语法" class="anchor" href="#gfm%E8%AF%AD%E6%B3%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GFM语法</h2> 
+<h4> <a id="github提供支持的特色的md格式" class="anchor" href="#github%E6%8F%90%E4%BE%9B%E6%94%AF%E6%8C%81%E7%9A%84%E7%89%B9%E8%89%B2%E7%9A%84md%E6%A0%BC%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>github提供支持的特色的md格式</h4> 
+<p>1.task list(勾选的样式)</p> 
+<ul> 
+ <li>[x] task 1</li> 
+ <li>[x] task 2</li> 
+ <li>[] task 3</li> 
+</ul> 
+<p>2.emoji(markdown支持的表情表示)</p> 
+<ul> 
+ <li>
+  <g-emoji alias="floppy_disk" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4be.png" ios-version="6.0">
+   💾
+  </g-emoji></li> 
+ <li>
+  <g-emoji alias="moneybag" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4b0.png" ios-version="6.0">
+   💰
+  </g-emoji></li> 
+ <li><a href="https://github.com/guodongxiaren/README/blob/master/emoji.md">代码大全</a></li> 
 </ul>
 </body>
 </html>
